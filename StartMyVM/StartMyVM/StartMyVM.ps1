@@ -1,5 +1,5 @@
 #
-# StartMyVM.ps1 - continue retry until the VM get started. Please run Login-AzureRmVM first.
+# StartMyVM.ps1 - continue retry until the VM get started. Please run Login-AzureRmAccount first.
 #
 Param(
     [Parameter(Mandatory=$True)][string]$ResourceGroupName,
